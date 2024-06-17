@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(0.25turn, rgb(191, 225, 255), aliceblue, rgb(191, 225, 255));
+    background-image: linear-gradient(115deg, rgba(255, 255, 255, 0.564), rgba(119, 0, 30, 0.66) ), url(https://images.hdqwalls.com/wallpapers/lofi-girl-relaxing-morning-time-ce.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background: white;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+  
+nav {
+    overflow: clip;
+    gap: 2em;
+    margin-left: auto;
+    margin-right: 1em;
+  }
+
+nav a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 1em 1em;
+    font-size: 1rem;
+}
+
+#header-img {
+    max-width: 7%;
+    min-width: 7%;
+    margin: 0.2rem;
+    margin-left: 1em;
+}
+
+h2 {
+    font-family: "Bakbak One", sans-serif;
+    font-size: 4rem;
+    margin: 3rem 0;
+}
+
+ul p {
+    font-family: "Alata", sans-serif !important;
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+    margin: 2% 2% 2% 2% !important;
+    max-width: 80% !important;
+    width: 60% !important;
+    overflow: hidden !important;
+    text-align: justify !important;
+    text-shadow: 1px 1px 1px white;;
+}
+
+/* ul li {
+    font-family: "Alata", sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+ul {
+    display: inline-flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.section-1 {
+    padding: 2rem 5rem;
+  }
+
+.section-2 {
+  padding: 2rem 5rem;
+  }
+
+.section-3 {
+  padding: 2rem 5rem;
+  }
+
+input {
+    margin-bottom: 1rem;
+}
+
+.button {
+  background-color:#ffe600;
+  border-radius: 5px;
+  color: #000000;
+  border:none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.email {
+    padding: 0.5rem 3rem;
+    text-align: center;
+    border: solid 1.5px rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+  }
+
+ul img {
+    margin: auto 5px;
+    max-height: 70%;
+    justify-content: space-evenly;
+}
+
+.column {
+    background-color: rgb(226, 226, 226);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    border: 1px solid #000;
+    border: solid;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+.column p {
+    padding: 0.4rem 0.2rem;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    max-width: 150px;
+    min-height: 30px;
+    max-height: 40px;
+    font-family: "Alata", sans-serif;
+}
+
+.price {
+    font-size: 2rem !important;
+    font-weight: bold;
+    font-family: "Alata", sans-serif;
+}
+
+div h3 {
+    display: inline;
+    background-color: #ffe600;
+    background-size: cover;
+    padding: 0.5rem 0.5rem;
+    font-family: "Lilita One", sans-serif;
+    align-items: start;
+    width: 100%;
+    border: solid black;
+    position: relative;
+    top: -5px;
+    left: 0;
+    overflow: hidden;
+}
+
+footer {
+  font-weight: bold;
+  background-color: lightgrey;
+  padding: 1rem;
+  width: 50%;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  border-radius: 5rem 5rem 0 0;
+}
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    html {
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    iframe {
+      width: 280px;
+      height: 157,5px;
+    }
+  }
